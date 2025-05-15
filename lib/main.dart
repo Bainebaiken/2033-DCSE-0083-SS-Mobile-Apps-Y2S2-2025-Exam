@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:mobileexams/MockupScreenOne.dart';
+
 import 'package:mobileexams/MockupScreenTwo.dart';
+
+// import 'package:mobileexams/MockupScreenOne.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -29,11 +32,13 @@ class MyApp extends StatelessWidget {
         // state is not lost during the reload. To reset the state, use hot
         // restart instead.
         //
-        // This works for code too, not just values: Most code changes can be
+        // This works for code
+        // too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MockupScreenTwo(),
+      home: const Mockupscreentwo (),
+      // home: const Mockupscreenone (),
     );
   }
 }
